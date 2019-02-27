@@ -1,13 +1,13 @@
 <template>
   <nav
     v-if="showPagination"
-    class="pagination"
+    class="pagination is-centered is-rounded"
     role="navigation"
     aria-label="pagination"
   >
     <a
       :disabled="currentPage < 2"
-      class="pagination-previous"
+      class="pagination-previous "
       @click="previous"
       v-text="previousText"
     />
